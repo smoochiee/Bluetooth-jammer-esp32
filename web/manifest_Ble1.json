@@ -1,0 +1,20 @@
+{
+  "name": "Ble1",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "button_with_x_hopping.ino.bootloader.bin", "offset": 4096 },
+        { "path": "button_with_x_hopping.ino.partitions.bin", "offset": 32768 },
+        { "path": "button_with_x_hopping.ino.bin", "offset": 65536 }
+      ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "esp8266.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
