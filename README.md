@@ -29,7 +29,11 @@ https://github.com/smoochiee/Ble-jammer/assets/30816448/bdfa92f8-24f4-407c-bf7f-
 
 
 
-If you like you can donate to:
+If you like you can donate to MY PAYPAL ACCOUNT :
+
+
 https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US
-or GCASH
+or
+
+GCASH
 09615018673
