@@ -5,9 +5,9 @@
       "chipFamily": "ESP32",
       "improv": false,
       "parts": [
-        { "path": "button_with_x_hopping.ino.bootloader.bin", "offset": 4096 },
-        { "path": "button_with_x_hopping.ino.partitions.bin", "offset": 32768 },
-        { "path": "button_with_x_hopping.ino.bin", "offset": 65536 }
+        { "path": "Bjammerdual.ino.bootloader.bin", "offset": 4096 },
+        { "path": "Bjammerdual.ino.partitions.bin", "offset": 32768 },
+        { "path": "Bjammerdual.ino.bin", "offset": 65536 }
       ]
     },
     {
