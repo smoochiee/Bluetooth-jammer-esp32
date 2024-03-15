@@ -14,10 +14,10 @@
 4. LIBRARY USE: https://github.com/nRF24/RF24
 ---
 
-#DEMO
-**
-THE EFFECT : DEPEND ON DEVICE BLUETOOTH AND RANGE...
-IF YOU WANT BETTER PERFORMANCE YOU CAN ADD 2.4GHZ RF AMPLIFIER.!!!**
+# DEMO
+
+**THE EFFECT : DEPEND ON DEVICE BLUETOOTH AND RANGE...
+IF YOU WANT BETTER PERFORMANCE YOU CAN ADD 2.4GHZ RF AMPLIFIER.**
 
 https://github.com/smoochiee/Ble-jammer/assets/30816448/16f0c1f8-6f23-4cca-a352-f6ff64fe5a90
 
@@ -37,7 +37,7 @@ AND
 
 
 
-## WEBFLASHER FOR EASY UPLOAD
+# WEBFLASHER FOR EASY UPLOAD
 https://smoochiee.github.io/Ble-jammer/flash1
 WEBFLASHER for direct flash to esp32 boards
 
@@ -47,7 +47,7 @@ WEBFLASHER for direct flash to esp32 boards
 
 
 
-## SCHEMATIC DIAGRAM:
+# SCHEMATIC DIAGRAM:
 FOR DUAL NRF24L01 PINS
 //HSPI=SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16
 //VSPI=SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22
@@ -66,7 +66,7 @@ FOR SINGLE
 
 ---
 
-### DONATION
+# DONATION
 **If you like you can donate to MY PAYPAL ACCOUNT :**
 
 
