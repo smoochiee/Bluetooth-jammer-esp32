@@ -3,6 +3,11 @@
 2.4GHZ DEVICES***
 
 
+REQUIRED DEVICES:
+1 OR 2 NRF24
+1 ESP32
+10UF-100UF CAPACITOR DEPEND ON YOUR NRF
+
 
 
 ****
@@ -44,13 +49,18 @@ FOR SINGLE
 
  
 
-
+HOW IT WORKS VIDEO...
 https://github.com/smoochiee/Ble-jammer/assets/30816448/bdfa92f8-24f4-407c-bf7f-4c56b87a3de6
 
 
 
-![schematic](https://github.com/smoochiee/Ble-jammer/assets/30816448/93fde678-6968-4de0-8dcf-f9f9a0f12675)
+SCHEMATIC DIAGRAM:
 
+
+![NRF24L01 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/e41779d4-565a-4044-9b88-c0acbea0e93e)
+![NRF24 ESP32 CONNECTION](https://github.com/smoochiee/Ble-jammer/assets/30816448/c91b6a59-aeb8-4a0b-a8df-8f3030d4506d)
+![ESP32 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/56cecea4-67da-4e5a-b540-1eb2b53da43b)
+![NRF24 CAPACITOR](https://github.com/smoochiee/Ble-jammer/assets/30816448/bf24b643-7b70-4d73-962a-38fa0bffe30f)
 
 
 
