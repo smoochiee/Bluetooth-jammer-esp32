@@ -81,14 +81,17 @@
   </head>
   <body>
     <div class="content">
-      <h1>Ble Jammer Flasher</h1>
+      <h1>BlUETOOTH Jammer Flasher</h1>
       <p>Choose your hardware</p>
       <ul class="radios">
         <li>
-          <label><input type="radio" name="type" value="Ble1" /> Single Nrf24l01 only</label>
+          <label><input type="radio" name="type" value="Ble1" /> Single Nrf24l01 Vspi (SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22)</label>
         </li>
         <li>
-          <label><input type="radio" name="type" value="Ble2" /> Dual Nrf24l01</label>
+          <label><input type="radio" name="type" value="Ble2" /> Dual Nrf24l01 Vspi and Hspi pins</label>
+        </li>
+		<li>
+          <label><input type="radio" name="type" value="Ble3" /> Single Nrf24l01 Hspi (SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16)</label>
         </li>
      
       </ul>
@@ -97,10 +100,15 @@
       </p>
 
       <div class="footer">
+	  ✨ <a href="https://github.com/smoochiee/Ble-jammer/blob/main/GCash-MyQR-16032024181536.PNG.jpg" 
+          >GCASH</a
+        > &mdash;
+		
   
-        Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a> 🛠️
+       You can donate <a href="https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US">PAypal</a> 🛠️
     </div>
     <script>
+	
       document.querySelectorAll('input[name="type"]').forEach(radio =>
         radio.addEventListener("change", () => {
           const button = document.querySelector('esp-web-install-button');
