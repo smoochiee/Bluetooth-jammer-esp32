@@ -1,6 +1,12 @@
 # **WARNING!!! JAMMING IS ILLEGAL**
 
-#OPEN SOURCE FOR BETTER CODING..
+# DONATION
+**If you like you can donate to MY PAYPAL ACCOUNT :**
+
+
+[PAYPAL](https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US)
+or
+[GCASH](https://github.com/smoochiee/Ble-jammer/blob/main/GCash-MyQR-16032024181536.PNG.jpg)
 
 # Ble-jammer 
 **JAMMING BLUETOOTH AND WIFI USING NRF24L01 AND ESP32 IN RANGE 
@@ -107,12 +113,4 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 --- 
 ### NOT PRO IN CODING FEEL FREE TO ADD SOME FUNCTIONS
 
-# DONATION
-**If you like you can donate to MY PAYPAL ACCOUNT :**
 
-
-https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US
-or
-
-**GCASH
-09615018673**
