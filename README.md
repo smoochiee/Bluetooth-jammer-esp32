@@ -51,10 +51,13 @@
 ### SCHEMATIC DIAGRAM FOR CLEAR PINOUTS
 - ![NRF24 ESP32 CONNECTION](https://github.com/smoochiee/Ble-jammer/assets/30816448/c91b6a59-aeb8-4a0b-a8df-8f3030d4506d)
 
-
+### NRF24L01 PINS
 - ![NRF24L01 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/e41779d4-565a-4044-9b88-c0acbea0e93e)
+
+- 
 ### ESP32 PINS WHERE YOU ATTACH YOUR NRF 24
-- ![ESP32 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/56cecea4-67da-4e5a-b540-1eb2b53da43b)
+- ![32](https://github.com/smoochiee/Ble-jammer/assets/30816448/92626aa5-945b-4bfc-8e77-2ade11f56a11)
+
 
 
 ### HOW YOU ATTACH CAPACITOR LOOK OUT FOR POLAROITY SIGNS `- +`
