@@ -1,31 +1,72 @@
 # **WARNING!!! JAMMING IS ILLEGAL**
+ ---
 
 
+# WHAT DOES IT DO?
 
-# Ble-jammer 
-**JAMMING BLUETOOTH AND WIFI USING NRF24L01 AND ESP32 IN RANGE 
-2.4GHZ DEVICES**        
----
-`NOT TESTED ON 2.4GHZ DRONE I DONT HAVE ONE` 
----
-
+**IT CREATES NOISE SIGNAL TO JAM BLUETOOTH AND WIFI USING NRF24L01 AND ESP32 IN RANGE 2.4GHZ DEVICES , EFFECTS MAY VARY DEPENDS ON DEVICE BLUETOOTH VERSIONS **        
 
 ---
-## REQUIRED DEVICES AND LIBRARY:
-1. 1 OR 2 NRF24
-2. 1 ESP32
-3. 10UF-100UF CAPACITOR DEPEND ON YOUR NRF
-4. LIBRARY USE: https://github.com/nRF24/RF24
+`NOT TESTED ON 2.4GHZ DRONE I DONT HAVE ONE BUT IT CAN JAM ONE..... MAYBE?` 
 ---
 
+
+---
+## REQUIRED DEVICE AND MODULE:
+1. `1pc OR 2pcs NRF24`
+- ![nrf24l01](https://github.com/smoochiee/Ble-jammer/assets/30816448/c370e76d-d518-409a-ba87-cb087183958c)
+
+2. `1pc ESP32` NOTE... YOU CAN USE A `NANO OR MICRO` BUT ESP32 ARE CHEAP ALMOST SAME PRICE AS `ARDUINOS`...LOL
+- ![esp32](https://github.com/smoochiee/Ble-jammer/assets/30816448/840c5d23-a6cd-4c9b-90b5-911c3d29d8e4)
+
+
+3. `10UF-100UF CAPACITOR DEPEND ON YOUR NRF` 
+- ![capacitor](https://github.com/smoochiee/Ble-jammer/assets/30816448/7165fcb1-bb05-4aa4-8dee-5640118b2673)
+
+---
+
+
+## ` WEBFLASHER `INSTALLER FOR EASY UPLOAD CODE ON ESP32 NO NEED TO DOWNLOAD INO FILE (USE CHROME OR MICROSOFT BROWSER)
+---
+ [WEBFLASHER](https://smoochiee.github.io/Ble-jammer/flash1) HERE.....
+
+
+---
+
+
+ ## PINS TO ATTACH
+
+### FOR DUAL NRF24L01 PINS
++ ` HSPI= SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16`
++ ` VSPI= SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22`
+
+### FOR SINGLE NRF24L01 PINS
+ - `VSPI= SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22`
+ - OR YOU CAN USE
+- `HSPI= SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16` 
+
+---
+## SCHEMATIC DIAGRAM
+
+### SCHEMATIC DIAGRAM FOR CLEAR PINOUTS
+- ![NRF24 ESP32 CONNECTION](https://github.com/smoochiee/Ble-jammer/assets/30816448/c91b6a59-aeb8-4a0b-a8df-8f3030d4506d)
+
+
+- ![NRF24L01 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/e41779d4-565a-4044-9b88-c0acbea0e93e)
+### ESP32 PINS WHERE YOU ATTACH YOUR NRF 24
+- ![ESP32 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/56cecea4-67da-4e5a-b540-1eb2b53da43b)
+
+
+### HOW YOU ATTACH CAPACITOR LOOK OUT FOR POLAROITY SIGNS `- +`
+![NRF24 CAPACITOR](https://github.com/smoochiee/Ble-jammer/assets/30816448/bf24b643-7b70-4d73-962a-38fa0bffe30f)
+
+
+--- 
 ## DEMO
 
-**THE EFFECT : DEPEND ON DEVICE BLUETOOTH AND RANGE...
-IF YOU WANT BETTER PERFORMANCE YOU CAN ADD 2.4GHZ RF AMPLIFIER.**
+**IF YOU WANT BETTER PERFORMANCE YOU CAN ADD 2.4GHZ RF AMPLIFIER**
 
 https://github.com/smoochiee/Ble-jammer/assets/30816448/16f0c1f8-6f23-4cca-a352-f6ff64fe5a90
-
-
 
 
 ## SOME NOTES
@@ -34,9 +75,10 @@ https://github.com/smoochiee/Ble-jammer/assets/30816448/16f0c1f8-6f23-4cca-a352-
 - BLUETOOTH CLASSIC 80 CHANNELS
 + BLE USES 40 CHANNELS
 * WIFI USES 1-14 CHANNELS
+* DRONE 2.4GHZ 1-125 SO YOU NEED TO EDIT CODE TO HOPE 125 CHANNELS
 ---
-YOU CAN EDIT PAYLOAD SIZE DIRECTLY ON RF24 LIBRARY  `RF24.CPP LINE # 1972`
-
+* YOU CAN EDIT PAYLOAD SIZE DIRECTLY ON RF24 LIBRARY  `RF24.CPP LINE # 1972`
+* YOU NEED TO COMPILE IF YOUR EDITING SOME VALUES HERES [LIBRARY NRF24](https://github.com/nRF24/RF24) YOU NEED AND THE INO FILE 
 ```
 /****************************************************************************/
 void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
@@ -76,37 +118,6 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 
 ```
 ---
-
-
-## WEBFLASHER FOR EASY UPLOAD CODE ON ESP32
----
- [WEBFLASHER](https://smoochiee.github.io/Ble-jammer/flash1) HERE.....
-
-
----
-
-
-## SCHEMATIC DIAGRAM:
-
-### FOR DUAL NRF24L01 PINS
-+ ` HSPI=SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16`
-+ ` VSPI=SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22`
-
-### FOR SINGLE 
- - `VSPI=SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22`
- - OR YOU CAN USE
-- `HSPI=SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16` YOU NEED TO EDIT VALUES ON CODE IF YOU USE HSPI
-
----
-![NRF24 ESP32 CONNECTION](https://github.com/smoochiee/Ble-jammer/assets/30816448/c91b6a59-aeb8-4a0b-a8df-8f3030d4506d)
-![NRF24L01 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/e41779d4-565a-4044-9b88-c0acbea0e93e)
-![ESP32 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/56cecea4-67da-4e5a-b540-1eb2b53da43b)
-![NRF24 CAPACITOR](https://github.com/smoochiee/Ble-jammer/assets/30816448/bf24b643-7b70-4d73-962a-38fa0bffe30f)
-
-
---- 
-### NOT PRO IN CODING FEEL FREE TO ADD SOME FUNCTIONS
-
 
 # DONATION
 **If you like you can donate to MY PAYPAL ACCOUNT :**
