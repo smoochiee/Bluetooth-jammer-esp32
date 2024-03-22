@@ -1,8 +1,7 @@
 # **WARNING!!! JAMMING IS ILLEGAL**
  ---
 
-
- [Buy complete built here](https://shp.ee/dluz3o2)
+# You can [Buy complete built here](https://shp.ee/dluz3o2)
 
 
 # WHAT DOES IT DO?
