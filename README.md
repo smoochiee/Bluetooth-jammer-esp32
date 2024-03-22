@@ -1,8 +1,9 @@
-# **WARNING!!! JAMMING IS ILLEGAL**
+ **WARNING!!! JAMMING IS ILLEGAL**
  ---
 
 # You can [Buy complete built here](https://shp.ee/dluz3o2)
 
+# You can  Buy [Pcb only](https://shp.ee/cxkpjob)
 
 # WHAT DOES IT DO?
 
