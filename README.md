@@ -1,9 +1,6 @@
  **WARNING!!! JAMMING IS ILLEGAL**
  ---
 
-# You can [Buy complete built here](https://shp.ee/dluz3o2)
-
-# You can  Buy [Pcb only](https://shp.ee/cxkpjob)
 
 # WHAT DOES IT DO?
 
@@ -139,8 +136,16 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 /****************************************************************************/
 
 ```
+
 ---
 
+
+
+### You can [Buy complete built here](https://shp.ee/dluz3o2) (for Ph user only)
+
+### You can  Buy [Pcb only](https://shp.ee/cxkpjob) (for Ph user only)
+
+---
 # DONATION
 **If you like you can donate to MY PAYPAL ACCOUNT :**
 
