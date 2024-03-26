@@ -26,6 +26,10 @@
 3. `10UF-100UF CAPACITOR DEPEND ON YOUR NRF` 
 - ![capacitor](https://github.com/smoochiee/Ble-jammer/assets/30816448/7165fcb1-bb05-4aa4-8dee-5640118b2673)
 
+4.` 1 DIP SWITCH` (OPTIONAL IF YOU WANT TO USE DIFFERENT PATTERN OF CHANNEL HOPPING)
+- ![DIP](https://github.com/smoochiee/Ble-jammer/assets/30816448/cec3ed8d-6db0-4c9a-9d20-de72abbf9c58)
+
+
 ---
 
 
@@ -39,17 +43,18 @@
  - `VSPI= SCK = 18, MISO =19, MOSI = 23 ,CS =21 ,CE = 22`
 - `HSPI= SCK = 14, MISO = 12, MOSI = 13, CS = 15 , CE = 16` 
 
+### SWITCH PIN 
+- `PIN 33 OF YOUR ESP32 `
 ---
-## SCHEMATIC DIAGRAM
+## WIRING DIAGRAM
 
-### SCHEMATIC DIAGRAM FOR CLEAR PINOUTS
-- ![NRF24 ESP32 CONNECTION](https://github.com/smoochiee/Ble-jammer/assets/30816448/c91b6a59-aeb8-4a0b-a8df-8f3030d4506d)
 
 ### NRF24L01 PINS
 - ![NRF24L01 PIN](https://github.com/smoochiee/Ble-jammer/assets/30816448/e41779d4-565a-4044-9b88-c0acbea0e93e)
 
-### ESP32 PINS WHERE YOU ATTACH YOUR NRF 24
-- ![32](https://github.com/smoochiee/Ble-jammer/assets/30816448/92626aa5-945b-4bfc-8e77-2ade11f56a11)
+### ESP32 PINS WHERE YOU ATTACH YOUR `NRF24` AND `SWITCH `
+- ![32](https://github.com/smoochiee/Ble-jammer/assets/30816448/ba7c2991-1542-4296-8b8c-8011c2bc8e77)
+
 
 
 
@@ -78,6 +83,15 @@
 
 - https://github.com/smoochiee/Ble-jammer/assets/30816448/16f0c1f8-6f23-4cca-a352-f6ff64fe5a90
 
+---
+
+## COMPILING USING IDE (IF YOUR NOT USING WEBFLASHER)
+
+* DOWNLOAD LIBRARIES YOU NEED AND INSTALL [RF24 LIBRARY](https://github.com/nRF24/RF24) AND [EZBUTTON LIBRARY](https://arduinogetstarted.com/tutorials/arduino-button-library)
+* DOWLOAD CODE [INO FILE](https://github.com/smoochiee/Ble-jammer/tree/main/INO)
+
+---
+
 
 ## SOME NOTES
 
@@ -86,9 +100,7 @@
 + BLE USES 40 CHANNELS
 * WIFI USES 1-14 CHANNELS
 * DRONE 2.4GHZ 1-125 SO YOU NEED TO EDIT CODE TO HOPE 125 CHANNELS
----
 * YOU CAN EDIT PAYLOAD SIZE DIRECTLY ON RF24 LIBRARY  `RF24.CPP LINE # 1972`
-* YOU NEED TO COMPILE IF YOUR EDITING SOME VALUES HERES [LIBRARY NRF24](https://github.com/nRF24/RF24) YOU NEED AND THE INO FILE 
 ```
 /****************************************************************************/
 void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
