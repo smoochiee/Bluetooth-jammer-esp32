@@ -1,3 +1,8 @@
+
+![smoochieeBLEheaderIMG](https://github.com/smoochiee/Ble-jammer/assets/30816448/8c160045-5e4c-4ad4-ae91-471beade94ba)
+
+
+ 
  **WARNING!!! JAMMING IS ILLEGAL**
  ---
 
@@ -153,3 +158,8 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 [PAYPAL](https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US)
 or
 [GCASH](https://github.com/smoochiee/Ble-jammer/blob/main/GCash-MyQR-16032024181536.PNG.jpg)
+
+# SPECIAL THANKS FOR DONATORS
+  * [ATOMNFT](https://github.com/ATOMNFT) - HEADER AND DONATIONS
+  * PARROTSTORE - DONATIONS
+
