@@ -142,13 +142,10 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 
 ```
 
----
 
 
 
-### You can [Buy complete built here](https://shp.ee/dluz3o2) (for Ph user only)
 
-### You can  Buy [Pcb only](https://shp.ee/cxkpjob) (for Ph user only)
 
 ---
 IF YOU DO MODIFY CODES OR MAKE IT YOUR OWN PLEASE DO CREDITS FROM OWNER.NOT ACT LIKE YOU OWN...A THANKS OR DONATIONS WOULD BE NICE..
