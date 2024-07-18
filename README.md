@@ -151,6 +151,8 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 ### You can  Buy [Pcb only](https://shp.ee/cxkpjob) (for Ph user only)
 
 ---
+IF YOU DO MODIFY CODES OR MAKE IT YOUR OWN PLEASE DO CREDITS FROM OWNER.NOT ACT LIKE YOU OWN...A THANKS OR DONATIONS WOULD BE NICE..
+---
 # DONATION
 **If you like you can donate to MY PAYPAL ACCOUNT :**
 
@@ -158,6 +160,8 @@ void RF24::startConstCarrier(rf24_pa_dbm_e level, uint8_t channel)
 [PAYPAL](https://paypal.me/smoochieelee?country.x=PH&locale.x=en_US)
 or
 [GCASH](https://github.com/smoochiee/Ble-jammer/blob/main/GCash-MyQR-16032024181536.PNG.jpg)
+
+
 
 # SPECIAL THANKS FOR DONATORS
   * [ATOMNFT](https://github.com/ATOMNFT) - HEADER AND DONATIONS
