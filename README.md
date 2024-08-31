@@ -165,5 +165,8 @@ or
 
 # SPECIAL THANKS FOR DONATORS
   * [ATOMNFT](https://github.com/ATOMNFT) - HEADER AND DONATIONS
-  * PARROTSTORE - DONATIONS
+  * DONATIONS
+  * PARROTSTORE
+  * Sok Ponleu
+  * Philipp Simon
 
