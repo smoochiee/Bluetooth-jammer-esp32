@@ -6,6 +6,7 @@
  **WARNING!!! JAMMING IS ILLEGAL**
  ---
 # FOR UPDATED CODES AND FEATURE GO HERE [NOISY BOY](https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer)
+https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer
 
 # WHAT DOES IT DO?
 
@@ -70,7 +71,13 @@
 
 - ` WEBFLASHER `INSTALLER FOR EASY UPLOAD CODE ON ESP32 NO NEED TO DOWNLOAD INO FILE (USE CHROME OR MICROSOFT BROWSER)
 
- [WEBFLASHER](https://smoochiee.github.io/Bluetooth-jammer-esp32/flash1) HERE....SELECT WHAT TO UPLOAD `VSPI,HSPI OR DUAL` AND CHOOSE RIGHT `COM PORT`
+- https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer newer code
+- # FOR UPDATED CODES AND FEATURE GO HERE [NOISY BOY](https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer)
+https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer
+
+- 
+
+ [REMOVE FLASHER](https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer) HERE....SELECT WHAT TO UPLOAD `VSPI,HSPI OR DUAL` AND CHOOSE RIGHT `COM PORT`
 
 
 ---
