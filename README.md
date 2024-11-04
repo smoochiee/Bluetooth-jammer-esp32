@@ -77,7 +77,7 @@ https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer
 
 - 
 
- [REMOVE FLASHER](https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer) HERE....SELECT WHAT TO UPLOAD `VSPI,HSPI OR DUAL` AND CHOOSE RIGHT `COM PORT`
+ [REMOVE FLASHER](https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer)
 
 
 ---
